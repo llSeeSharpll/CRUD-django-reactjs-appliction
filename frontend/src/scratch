@@ -1,0 +1,9 @@
+<tbody>
+                        {deps.map(dep=>
+                            <tr key={dep.departmentId}>
+                                <td>{dep.departmentId}</td>
+                                <td>{dep.departmentName}</td>
+                                <td>EDIT/Delete</td>
+                            </tr>
+                            )}
+                    </tbody>
